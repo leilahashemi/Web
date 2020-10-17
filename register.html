@@ -4,8 +4,10 @@
 	<title>Register</title>
 </head>
 <body>
+	<!-- Use GET, not POST -->
 	<form method="GET">
-		First Name: <input type="text" name="firstname"><br>
+		<div>
+		<span>First Name:</span> <input type="text" name="firstname"><br>
 		Last Name: <input type="text" name="lastname"><br>
 		Email: <input type="email" required="email" name="email"><br>
 		Password: <input type="Password" name="Password" minlength="5"><br>
@@ -24,6 +26,7 @@
 		</select><br>
 		<input type="submit" value="Register!">
 		<input type="reset" name="">
+		</div>
 	</form>
 </body>
 </html> 
