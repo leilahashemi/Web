@@ -1,9 +1,18 @@
 /*Selector {
 	Property: value;
 }*/
+body{
+	background-image: url(back.jpg);
+	background-size: cover;
+}
 
 h2 {
-	color: red;
+	color: #661141;
+	text-align: center;
+	border: 5px dashed /*purple*/;
+	border: 5px solid rgb(0, 0, 255, 0.5);
+	cursor: pointer;
+
 }
 
 p{
@@ -11,5 +20,10 @@ p{
 }
 
 p{
-	color: green;
+	color: black;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
 }
