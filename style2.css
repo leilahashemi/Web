@@ -32,3 +32,8 @@ text-align: center;}
 	margin: 20px;
 	width: 20px
 }
+p{ font-size: 10px; }
+
+span{
+	font-size: 2rem;
+}
