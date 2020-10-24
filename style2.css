@@ -1,9 +1,10 @@
 /*Selector {
 	Property: value;
 }*/
-
+ 
 h2 {
 	color: red;
+	text-align: center;
 }
 
 p{
@@ -20,3 +21,7 @@ p{
 	/*font-family: "Times New Roman";*/
 	font-family: 'Poiret One', cursive;
 }
+
+img{float: right;}
+footer{clear: both;
+text-align: center;}
