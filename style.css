@@ -1,10 +1,14 @@
 .container{
 	display:grid;
-	gap: 20px;
+	grid-gap: 20px;
 	/*grid-template-columns: 300px 300px 300px;*/
 	/*grid-template-columns: 20% 20% 20%;*/
-	grid-template-columns: auto 1fr 2fr;
-	grid-template-rows: 1fr 2fr;
+	/*grid-template-columns: repeat(3, 1fr);*/
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-template-rows: 1fr;
+	/*justify-items: start;*/
+	/*justify-items: end;*/
+	/*justify-items: start;*/
 }
 
 .zone {
